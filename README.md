@@ -10,5 +10,12 @@ To ensure that the script performs efficiently and optimally, I conducted a benc
 
 The benchmarking results revealed that the script was able to process trajectories of varying sizes and complexity within a reasonable time frame, with a low memory footprint. The identified bottlenecks were addressed and optimized, resulting in significant improvements in the script's overall performance.
 
-Overall, this project demonstrates my skills in Python programming, molecular dynamics analysis, and performance optimization. It also highlights my ability to analyze and address performance bottlenecks in software applications.
 
+## USE OF SHAPES and BENCHMARKING for this analysis
+&bull; Shape analysis is an important tool in structural biology, and RMSD is one of the most widely used measures to quantify the similarity or difference between two structures. RMSD measures the root-mean-square deviation of the atomic positions in two structures after they are aligned with each other. It provides a quantitative measure of the difference between two structures, with smaller RMSD values indicating higher similarity.
+
+&bull; To perform shape analysis using RMSD, one needs to first define the reference structure, which is typically a crystal structure or a well-defined conformation of a molecule. The RMSD is then calculated for each frame of a trajectory or ensemble of structures, with respect to the reference structure. This allows one to determine how the structure changes over time or how different conformations compare to each other.
+
+&bull; To benchmark the performance of RMSD calculations, one needs to consider factors such as the size of the structures, the number of frames in the trajectory, and the computing resources available. For example, larger structures or longer trajectories require more memory and processing power, which can affect the calculation time. Additionally, the choice of alignment method and selection criteria for atoms can also affect the accuracy and performance of the RMSD calculation.
+
+&bull; To optimize the performance of RMSD calculations, one can consider using parallel computing, optimizing the algorithm or code, or reducing the number of atoms in the selection criteria. Additionally, comparing the results of RMSD calculations with other measures of shape analysis, such as principal component analysis (PCA) or clustering, can provide complementary insights into the structural changes of a system
