@@ -18,3 +18,5 @@ The benchmarking results revealed that the script was able to process trajectori
 &bull; To benchmark the performance of RMSD calculations, one needs to consider factors such as the size of the structures, the number of frames in the trajectory, and the computing resources available. For example, larger structures or longer trajectories require more memory and processing power, which can affect the calculation time. Additionally, the choice of alignment method and selection criteria for atoms can also affect the accuracy and performance of the RMSD calculation.
 
 &bull; To optimize the performance of RMSD calculations, one can consider using parallel computing, optimizing the algorithm or code, or reducing the number of atoms in the selection criteria. Additionally, comparing the results of RMSD calculations with other measures of shape analysis, such as principal component analysis (PCA) or clustering, can provide complementary insights into the structural changes of a system
+
+# THE CODE IS IN rmsd_calculation(1).ipynb
