@@ -8,6 +8,7 @@ In this project, I implemented a script to calculate the Root Mean Square Deviat
 
 The benchmarking results revealed that the script was able to process trajectories of varying sizes and complexity within a reasonable time frame, with a low memory footprint. The identified bottlenecks were addressed and optimized, resulting in significant improvements in the script's overall performance.
 
+![](https://i.imgur.com/VoS53AU.jpg)
 
 ## USE OF SHAPES and BENCHMARKING for this analysis
 &bull; Shape analysis is an important tool in structural biology, and RMSD is one of the most widely used measures to quantify the similarity or difference between two structures. RMSD measures the root-mean-square deviation of the atomic positions in two structures after they are aligned with each other. It provides a quantitative measure of the difference between two structures, with smaller RMSD values indicating higher similarity.
